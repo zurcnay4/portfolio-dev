@@ -135,7 +135,7 @@ i {
     font-style: normal
 }
 a {
-    color: red
+    color: blue
 }
 header li {
     font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
@@ -161,6 +161,11 @@ header li {
 }
 .content a:hover {
     border-color: blue;
+}
+@media (min-width: 38em) {
+    html {
+        font-size: 20px
+    }
 }
 footer {
     font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
