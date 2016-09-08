@@ -25,7 +25,7 @@ background: -webkit-linear-gradient(to left, #0B486B , #F56217); /* Chrome 10-25
 background: linear-gradient(to left, #0B486B , #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
                
     z-index: 3;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%
 }
 header .nav-top .container {
@@ -73,6 +73,8 @@ header .cover {
     background-position: center center;
     background-size: cover;
     background-image: url(/assets/images/city.jpg);
+    /*background: url(/assets/images/city-2.jpg) fixed;*/
+    /*background:url(/assets/images/city-2.jpg) top right no-repeat; background-attachment:fixed;*/
 }
 .photo-sphere {
     border-radius: 50%;
