@@ -1,5 +1,7 @@
 body {
-    margin: 0
+    margin: 0;
+    font-size: 20px !important;
+    line-height: 1.6 !important;
 }
 ::selection {
     background-color: blue;
@@ -12,51 +14,46 @@ body.full .cover {
     margin: 0 auto;
     max-width: 36rem;
 }
-header {
+.header {
     text-transform: uppercase;
 }
-.nav-top {
-    
-
-
-
-background: #0B486B; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #0B486B , #F56217); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #0B486B , #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-               
+.header .nav-top {
+    background: #0B486B; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0B486B , #F56217); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0B486B , #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
     z-index: 3;
-    /*position: fixed;*/
+    position: absolute;
     width: 100%
 }
-header .nav-top .container {
+.header .nav-top .container {
     padding: 0 5px
 }
-header .logo {
+.header .logo {
     display: inline-block;
     text-decoration: none;
     font-size: 17px;
     font-family: 'AvenirNextLTW01-BoldIta';
     color: #fff
 }
-header .logo marquee {
+.header .logo marquee {
     display: inline-block;
     width: 100px;
     vertical-align: bottom
 }
-header a {
+.header a {
     border-bottom: 2px solid transparent
 }
-header a:hover {
+.header a:hover {
     border-color: #fff
 }
-header nav {
+.header .nav {
     display: inline-block;
     float: right;
     padding-left: 0;
     margin: 0;
     margin-top: -2px
 }
-header nav a {
+.header .nav a {
     font-family: 'AvenirNextLTW01-BoldIta';
     font-size: 11px;
     text-decoration: none;
@@ -68,7 +65,7 @@ header nav a {
     transition: background-color 0.3s ease;
     color: #fff
 }
-header .cover {
+.header .cover {
     height: 250px;
     background-position: center center;
     background-size: cover;
@@ -98,7 +95,7 @@ header .cover {
 html {
     font-size: 16px;
     font-family: "AvenirNextLTW01-Regular", "Avenir Next", sans-serif;
-    line-height: 1.6
+    line-height: 1.6 !important;
 }
 h1,
 h2,
@@ -121,7 +118,7 @@ h5,
 h6 {
     margin-top: 3rem;
     text-align: center
-}
+}`
 .content h1 {
     line-height: 36px;
     font-size: 36px;
@@ -144,7 +141,7 @@ i {
 a {
     color: blue
 }
-header li {
+.header li {
     font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
     font-weight: normal;
     font-size: 15px
@@ -171,7 +168,7 @@ header li {
 }
 @media (min-width: 38em) {
     html {
-        font-size: 20px
+        font-size: 20px 
     }
 }
 footer {
