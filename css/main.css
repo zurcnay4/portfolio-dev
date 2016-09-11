@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-size: 20px !important;
     line-height: 1.6 !important;
+    height:1080px;
 }
 ::selection {
     background-color: blue;
@@ -23,7 +24,7 @@ body.full .cover {
     background: linear-gradient(to left, #0B486B , #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
     z-index: 3;
     position: absolute;
-    width: 100%
+    width: 100%;
 }
 .header .nav-top .container {
     padding: 0 5px
@@ -81,9 +82,18 @@ body.full .cover {
     margin: auto; 
     left: 0; 
     right: 0; 
-    top: 360px;
+    top: 385px;
     background-color: white; 
     height: 200px;
+}
+.photo-sphere-sm {
+    border-radius: 50%;
+    padding:1px;
+    border:.5px solid black;
+    background-color: white; 
+    position:absolute;
+    left:550px;
+    z-index: 4;
 }
 .content {
     padding: 0 2rem

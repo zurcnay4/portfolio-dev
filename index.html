@@ -13,17 +13,31 @@ layout: null
   <link rel="stylesheet" href="/css/main.css" type="text/css"/>
 <script src="/js/jquery-3.1.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>
-</head>
 
+<script>
+    /*$(function() {
+        $(window).scroll(function() {
+            if($(window).scrollTop() >= 500) {  
+                $('.photo-sphere-sm').fadeIn('fast');
+            }else{
+                $('.photo-sphere-sm').fadeOut('fast');
+            }
+        });
+    });*/
+ </script>
+</head>
 <body class="full">
+
   <div class="header">
     <!-- === -->
     <!-- nav -->
     <!-- === -->
-    <div class="nav-top">
-      <div class="container">
+    <div class="nav-top" >
+      <!-- <img src="/assets/images/oz.jpg" class="photo-sphere-sm" height="50px" width="50px" style="z-index: 6;">   -->
+      <div class="container" data-spy="affix" data-offset="200" >
+
         <a href="/" class="logo">Bayani Cruz</a>
-        <!-- <img src="/assets/images/oz.jpg" width="20%" height="20%" data-spy="affix" data-offset="200">  -->
+        
         <div class="nav">
           <a href="#">About</a>
           <a href="#">Blog</a>
@@ -41,7 +55,7 @@ layout: null
 
 
   </div>
-  
+
   <!-- ======= -->
   <!-- content -->
   <!-- ======= -->
