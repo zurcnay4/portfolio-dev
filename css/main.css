@@ -9,7 +9,7 @@ body {
     color: #fff
 }
 body.full .cover {
-    height: 500px;
+    height: 450px;
 }
 .container {
     margin: 0 auto;
@@ -34,12 +34,13 @@ body.full .cover {
     text-decoration: none;
     font-size: 17px;
     font-family: 'AvenirNextLTW01-BoldIta';
-    color: #fff
+    color: #fff;
+    padding-right: 10px;
 }
 .header .logo marquee {
     display: inline-block;
     width: 100px;
-    vertical-align: bottom
+    vertical-align: bottom;
 }
 .header a {
     border-bottom: 2px solid transparent
@@ -82,7 +83,7 @@ body.full .cover {
     margin: auto; 
     left: 0; 
     right: 0; 
-    top: 385px;
+    top: 320px;
     background-color: white; 
     height: 200px;
 }
@@ -92,8 +93,8 @@ body.full .cover {
     border:.25px solid black;
     /*background-color: white; */
     position:absolute;
-    /*left:280px;*/
-    left:440px;
+    /*left:380px;*/
+    /*left:440px;*/
     top:2px;
     z-index: 4;
     display: none;
@@ -184,12 +185,84 @@ a {
         font-size: 20px 
     }
 }
+.content-cert {
+    height:370px; 
+    width: 100%;
+    min-width: 1120px;
+    padding: 20px 0 20px 0;
+    background-color: #fff;
+    -webkit-box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
+}
+.find-me-wrap {
+    height: 20px; 
+    padding: 50px; 
+    text-align: center;
+}
+.cert-container {
+    text-align: center;
+}
+.img-resize {
+    display: inline-block; 
+    height: auto; 
+    width: 15%;
+}
+.find-me {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.find-me li {
+    float:left;
+    margin:0 -60px -60px 0;
+}
+.find-me a {
+    display: block;
+    /*text-indent: -9999px;*/
+    width: 100px;
+    height: 82px;
+}
+#facebook {    
+    background:url(/assets/images/SVG/facebook.svg) no-repeat;
+    background-size: 20%;
+}
+#steam {
+    background:url(/assets/images/SVG/steam.svg) no-repeat;
+    background-size: 20%;
+}
+#github {
+    background:url(/assets/images/SVG/github.svg) no-repeat;
+    background-size: 20%;
+}
+#ig {
+    background:url(/assets/images/SVG/instagram.svg) no-repeat;
+    background-size: 20%;
+}
+#linkedin {
+    background:url(/assets/images/SVG/linkedin.svg) no-repeat;
+    background-size: 20%;
+}
+#spotify {
+    background:url(/assets/images/SVG/spotify.svg) no-repeat;
+    background-size: 20%;
+}
+#twitter {
+    background:url(/assets/images/SVG/twitter.svg) no-repeat;
+    background-size: 20%;
+}
+#youtube {
+    background:url(/assets/images/SVG/youtube.svg) no-repeat;
+    background-size: 20%;
+}
 footer {
     font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
     font-weight: normal
 }
 .wrapper {
-  min-height: calc(100% + 100px);
+  /*min-height: calc(100% + 100px);*/
+  height: 600px;
   margin-bottom: -100px;
   padding-top: 50px;
 }
