@@ -306,17 +306,17 @@ footer {
 }
 .wrapper {
   /*min-height: calc(100% + 100px);*/
-  height: 600px;
+  height: 250px;
   margin-bottom: -100px;
   padding-top: 50px;
 }
 
-.wrapper:after {
+/* .wrapper:after {
   display: block;
   content: "";
   height: 600px;
   padding-top: 50px;
-}
+} */
 
 .footer { 
   background-color:#f2f3f3;
