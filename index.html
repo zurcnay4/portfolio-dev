@@ -17,7 +17,7 @@ layout: null
 <script>
     $(function() {
         $(window).scroll(function() {
-            if($(window).scrollTop() >= 390) {  
+            if($(window).scrollTop() >= 500) {  
                 $('.photo-sphere-sm').fadeIn('fast');
                 $('.photo-sphere').fadeOut('fast');
             }else{
@@ -60,13 +60,35 @@ layout: null
   <!-- content -->
   <!-- ======= -->
   <div class="container content wrapper">
+     <div class="find-me-wrap">
+    <ul class="find-me">
+        <li><a href="http://facebook.com/ayancruz" id="facebook"></a></li>
+        <li><a href="http://instagram.com/zurcnay4" id="ig"></a></li>
+        <li><a href="https://au.linkedin.com/in/bayanicruz" id="linkedin"></a></li>
+        <li><a href="https://github.com/zurcnay4/" id="github"></a></li>
+        <li><a href="http://steamcommunity.com/id/nay4/" id="steam"></a></li>
+        <li><a href="https://open.spotify.com/user/zurcnay4" id="spotify"></a></li>
+       <!--  <li><a href="#" id="twitter"></a></li>
+       <li><a href="#" id="youtube"></a></li> -->
+    </ul>
+    <hr>
+  </div>
     <h2>Hello World!</h2>
       <p>
         Just a <i>Technical Consultant</i> who does stuff.
       </p>
   </div>
-  <div class="content-cert">
-    <div class="cert-container">
+
+<!-- TODO -->
+
+  <div class="res-cert-container">
+    <div class="res-cert-wrapper">
+      <div class="res-cert"></div>
+    </div>
+  </div>
+  
+  <div class="cert-container">
+    <div class="cert-wrapper">
       <img src="/assets/images/certs/cert_dev_rgb.png" class="img-resize"></img>
       <img src="/assets/images/certs/cert_app_rgb2.png" class="img-resize"></img>
       <img src="/assets/images/certs/cert_admin_rgb.png" class="img-resize"></img>
@@ -75,18 +97,6 @@ layout: null
       <img src="/assets/images/certs/cert_ccsales_rgb.png" class="img-resize" style="padding-top: 10px"></img>
     </div>
   </div>
-  <div class="find-me-wrap">
-  <ul class="find-me">
-      <li><a href="#" id="facebook"></a></li>
-      <li><a href="#" id="ig"></a></li>
-      <li><a href="#" id="linkedin"></a></li>
-      <li><a href="#" id="github"></a></li>
-      <li><a href="#" id="steam"></a></li>
-      <li><a href="#" id="spotify"></a></li>
-     <!--  <li><a href="#" id="twitter"></a></li>
-     <li><a href="#" id="youtube"></a></li> -->
-  </ul>
-  </div>
 </body>
 
 <!-- ======= -->
@@ -94,6 +104,6 @@ layout: null
 <!-- ======= -->
 <div class="footer">
   <div class="footer-content">
-    © 2016 zurcnay4. Powered by Jekyll
+    © 2016 zurcnay4.
   </div>
 </div>
