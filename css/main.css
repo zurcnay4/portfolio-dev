@@ -193,14 +193,19 @@ a {
 }
 .cert-container {
     /*height:370px; */
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
     height: auto;
     max-width: 100%;
     /*min-width: 1120px;*/    
     padding: 20px 0 20px 0;
-    background-color: #BBEBFF;
-    -webkit-box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
+    /*background-color: #BBEBFF;*/
+    background-color:#BABABA;
+    /*-webkit-box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
     box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
+*/
 }
 .res-cert-container {
     width: 100%;
