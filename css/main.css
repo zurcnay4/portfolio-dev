@@ -186,11 +186,12 @@ a {
     }
 }
 .content-cert {
-    height:370px; 
-    width: 100%;
-    min-width: 1120px;
+    /*height:370px; */
+    height: auto;
+    max-width: 100%;
+    /*min-width: 1120px;*/    
     padding: 20px 0 20px 0;
-    background-color: #fff;
+    background-color: #BBEBFF;
     -webkit-box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
     box-shadow: inset 0px 0px 40px -13px rgba(0,0,0,0.75);
@@ -202,11 +203,14 @@ a {
 }
 .cert-container {
     text-align: center;
+    /*position: relative;*/
+    width: 70%;
+    margin: auto;
 }
 .img-resize {
     display: inline-block; 
     height: auto; 
-    width: 15%;
+    width: 20%;
 }
 .find-me {
     list-style-type: none;
