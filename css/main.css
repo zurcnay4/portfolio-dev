@@ -109,7 +109,7 @@ body.full .cover {
     padding: 0 2rem
 }
 .content p {
-    text-align: center;
+    text-align: left;
 }
 
 html {
@@ -269,6 +269,30 @@ a {
     background:url(/assets/images/SVG/youtube.svg) no-repeat;
     background-size: 20%;
 }
+.layout {
+    background-color: #fff;
+    height: 100%;
+    margin-bottom: 345px;
+    -webkit-box-shadow: 0px 38px 84px -54px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 38px 84px -54px rgba(0,0,0,0.75);
+    box-shadow: 0px 38px 84px -54px rgba(0,0,0,0.75);
+}
+.footer { 
+  display: none;
+  background-color:#f2f3f3;
+  border-top:1px solid #bdc1c4;       
+  height: 100px;
+  color: #9ba1a6;
+  top: 30px ;
+  font-family:-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-size:13px;
+}
+.footer-content {
+    display:inline-block; 
+    vertical-align:middle; 
+    line-height: 100px; 
+    margin-left: 50px;
+}
 @media screen and (max-width: 618px) {
     .cert-container {
         display: none;
@@ -286,6 +310,13 @@ a {
     .find-me li {
         float:left;
         margin:0 -70px 0 10px;    
+    }
+    .footer {
+        display: block;
+
+    }
+    .layout {
+        margin-bottom: 0;
     }
 }
 .find-me-wrap {
@@ -305,10 +336,6 @@ a {
     height: auto; 
     width: 30%;
 }
-footer {
-    font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
-    font-weight: normal
-}
 .wrapper {
   /*min-height: calc(100% + 100px);*/
   height: 250px;
@@ -323,18 +350,4 @@ footer {
   padding-top: 50px;
 } */
 
-.footer { 
-  background-color:#f2f3f3;
-  border-top:1px solid #bdc1c4;       
-  height: 100px;
-  color: #9ba1a6;
-  top: 30px ;
-  font-family:-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-  font-size:13px;
-}
-.footer-content {
-    display:inline-block; 
-    vertical-align:middle; 
-    line-height: 100px; 
-    margin-left: 50px;
-}
+
