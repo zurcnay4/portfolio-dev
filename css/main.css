@@ -293,7 +293,7 @@ a {
     line-height: 100px; 
     margin-left: 50px;
 }
-@media screen and (max-width: 618px), screen and (max-device-height: 821px), screen and (max-device-width: 564px){
+@media screen and (max-width: 618px), screen and (max-device-height: 821px), screen and (max-device-width: 688px){
     .cert-container {
         display: none;
     }
@@ -319,13 +319,10 @@ a {
         margin-bottom: 0;
         box-shadow: none;
     }
-}
-@media screen and (max-device-width: 584px){
     .res-cert-container {
         position: absolute;
         bottom: 0;
     }
-
 }
 .find-me-wrap {
     height: 20px; 
