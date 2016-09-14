@@ -272,7 +272,7 @@ a {
 .layout {
     background-color: #fff;
     height: 100%;
-    margin-bottom: 345px;
+    margin-bottom: 420px;
     -webkit-box-shadow: 0px 38px 84px -54px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 38px 84px -54px rgba(0,0,0,0.75);
     box-shadow: 0px 38px 84px -54px rgba(0,0,0,0.75);
@@ -293,7 +293,7 @@ a {
     line-height: 100px; 
     margin-left: 50px;
 }
-@media screen and (max-width: 618px) {
+@media screen and (max-width: 618px), screen and (max-device-height: 821px), screen and (max-device-width: 564px){
     .cert-container {
         display: none;
     }
@@ -317,7 +317,15 @@ a {
     }
     .layout {
         margin-bottom: 0;
+        box-shadow: none;
     }
+}
+@media screen and (max-device-width: 584px){
+    .res-cert-container {
+        position: absolute;
+        bottom: 0;
+    }
+
 }
 .find-me-wrap {
     height: 20px; 
@@ -329,7 +337,9 @@ a {
     /*position: relative;*/
     width: 40%;
     margin: auto;
-    min-width: 600px;
+    min-width: 700px;
+    height: 400px
+
 }
 .img-resize {
     display: inline-block; 
