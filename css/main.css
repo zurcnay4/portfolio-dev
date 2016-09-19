@@ -318,11 +318,11 @@ a {
     .layout {
         margin-bottom: 0;
         box-shadow: none;
-    }
+    }/* 
     .res-cert-container {
         position: absolute;
         bottom: 0;
-    }
+    } */
 }
 .find-me-wrap {
     height: 20px; 
