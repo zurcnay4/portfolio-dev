@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 
 <html lang="en" id="bootstrap-overrides">
@@ -17,6 +19,7 @@
   <!-- <script src="/js/bootstrap.js"></script> -->
 
 <script>
+{% if page.url == "/" %}
     $(function() {
         $(window).scroll(function() {
             if($(window).scrollTop() >= 500) {  
@@ -28,10 +31,15 @@
             }
         });
     });
+    {% endif %}
  </script>
 </head>
 <body class="full">
+{% if page.url == "/" %}
 <div class="layout">
+{% else %}
+<div>
+{% endif %}
   <div class="header">
     <!-- === -->
     <!-- nav -->
@@ -51,7 +59,9 @@
       <!-- ===== -->
       <!-- photo -->
       <!-- ===== -->
+      {% if page.url == "/" %}
       <div class="cover"></div>
+      {% endif %}
       
 
 {{ content }}
@@ -66,6 +76,7 @@
     <div class="footer">
   <div class="footer-content">
     © 2016 zurcnay4.
+    
   </div>
 </div>
   </div> 
