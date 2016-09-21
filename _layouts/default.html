@@ -50,8 +50,8 @@
         <img src="/assets/images/oz.jpg" class="photo-sphere-sm" height="27px" width="27px">
         <div class="nav">
           <a href="/about">About</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
         </div>
       </div>
     </div>
@@ -59,8 +59,11 @@
       <!-- ===== -->
       <!-- photo -->
       <!-- ===== -->
-      {% if page.url == "/" %}
+      
       <div class="cover"></div>
+      {% if page.url != "/" %}
+        {% include find-me.html %}
+        </div>
       {% endif %}
       
 
